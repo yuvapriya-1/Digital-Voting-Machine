@@ -15,7 +15,16 @@ The architecture is configured to handle live status messages and real-time cand
 
 ### 4. Software Debounce Logic
 To neutralize contact bounce noise from standard mechanical tactile switches, an automated 50ms timing buffer is integrated into the button polling loops. The logic locks further inputs until the user completely releases the switch, ensuring one press equals exactly one vote.
+## Hardware Components (For Physical Implementation)
+- Arduino Uno
+- Push Buttons
+- EEPROM Memory
+- LCD Display / 7-Segment Display
+- Breadboard
+- Jumper Wires
 ## Author
 Potha Yuva Priya
 ## Internship Domain
 Digital Electronics and Vlsi
+## Conclusion
+This project demonstrates a secure Digital Voting Machine using Finite State Machine(FSM) logic, EEPROM-based secure storage, debouncing techniques, and output display integration concepts.
