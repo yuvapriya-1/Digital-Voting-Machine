@@ -15,3 +15,7 @@ The architecture is configured to handle live status messages and real-time cand
 
 ### 4. Software Debounce Logic
 To neutralize contact bounce noise from standard mechanical tactile switches, an automated 50ms timing buffer is integrated into the button polling loops. The logic locks further inputs until the user completely releases the switch, ensuring one press equals exactly one vote.
+## Author
+Potha Yuva Priya
+## Internship Domain
+Digital Electronics and Vlsi
